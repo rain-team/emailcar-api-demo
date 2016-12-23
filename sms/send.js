@@ -26,9 +26,9 @@ var postData = {
     // 通过 tpl_get 获取模板 id
     template_id: '11',
     // 多个手机号码以逗号分隔
-    // 13611111111
+    // 15800645469
     // 13611111111,13622222222
-    mobiles: ''
+    mobiles: '15800645469'
 }
 req.write(qs.stringify(postData))
 req.end()
